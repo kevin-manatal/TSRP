@@ -1,5 +1,5 @@
 module.exports = {
-  branches: ['main', 'master', 'develop','+([0-9])?(.{+([0-9]),x}).x'], // Default, develop and maintenance
+  branches: ['main', 'master'],
   preset: 'angular', // Default: angular
   plugins: [
     '@semantic-release/commit-analyzer', // Analyze commits to determine version

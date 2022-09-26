@@ -1,0 +1,21 @@
+name: Semantic release
+
+on:
+  push:
+    branches: '**'
+env:
+  GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v3
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+      - name: Install semantic-release
+        run: npm i @semantic-release/changelog @semantic-release/git semantic-release
+      - name: Semantic release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx semantic-release

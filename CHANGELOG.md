@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/kevin-opn/TSRP/compare/v1.0.1...v1.1.0) (2022-09-26)
+
+
+### Features
+
+* **feature xyz:** some details ([#8](https://github.com/kevin-opn/TSRP/issues/8)) ([8644a09](https://github.com/kevin-opn/TSRP/commit/8644a09ca81d7d42ead1aa3177d730fa7fc296f3))
+
 ## [1.0.1](https://github.com/kevin-opn/TSRP/compare/v1.0.0...v1.0.1) (2022-09-26)
 
 

@@ -1,4 +1,4 @@
-### JIRA Story/Task Reference: 
+### JIRA Story/Task Reference: []
 
 ### Overview
 > Describe what your Pull Request is about in a few sentences. This is a global description that should tell people what your PR is all about.
@@ -13,4 +13,4 @@
 > Describe how to test your new feature/bug fix. 
 
 ### Impact
-> How can this change be deployed? Any special requirement?
+> How can this change be deployed? Any special requirements?
